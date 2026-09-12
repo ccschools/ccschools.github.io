@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cc schools portal</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card-bg: #1e293b;
+      --accent: #38bdf8;
+      --text: #f8fafc;
+      --text-dim: #94a3b8;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif;
+      text-transform: lowercase;
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      padding: 1rem;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    header {
+      text-align: center;
+      margin: 2rem 0;
+    }
+
+    h1 {
+      font-family: Arial, sans-serif;
+      font-size: 2rem;
+      text-transform: uppercase;
+      background: linear-gradient(180deg, #000000, #FBFBFB);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 0.5rem;
+    }
+
+    p.subtitle {
+      color: var(--text-dim);
+      font-size: 0.95rem;
+    }
+
+    .section-title {
+      font-size: 1.2rem;
+      margin: 1.5rem 0 1rem;
+      color: var(--accent);
+      border-bottom: 1px solid #334155;
+      padding-bottom: 0.5rem;
+    }
+
+    .school-grid {
+      display: grid;
+      gap: 0.75rem;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    }
+
+    .school-card {
+      background: var(--card-bg);
+      padding: 1rem;
+      border-radius: 8px;
+      border: 1px solid #334155;
+    }
+
+    .school-card h3 {
+      font-size: 1rem;
+      margin-bottom: 0.25rem;
+    }
+
+    .school-card span {
+      font-size: 0.8rem;
+      color: var(--text-dim);
+      display: block;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 3rem;
+      padding: 1rem 0;
+      color: var(--text-dim);
+      font-size: 0.8rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>covington county schools portal</h1>
+    <p class="subtitle">an unofficial student-driven directory & resources page</p>
+  </header>
+
+  <!-- Main Covington County District Schools -->
+  <div class="section-title">covington county school district</div>
+  <div class="school-grid">
+    <div class="school-card">
+      <h3>red level school</h3>
+      <span>grades pk–12 • red level</span>
+    </div>
+    <div class="school-card">
+      <h3>straughn elementary</h3>
+      <span>grades pk–5 • andalusia</span>
+    </div>
+    <div class="school-card">
+      <h3>straughn middle school</h3>
+      <span>grades 6–8 • andalusia</span>
+    </div>
+    <div class="school-card">
+      <h3>straughn high school</h3>
+      <span>grades 9–12 • andalusia</span>
+    </div>
+    <div class="school-card">
+      <h3>pleasant home school</h3>
+      <span>grades pk–12 • andalusia</span>
+    </div>
+    <div class="school-card">
+      <h3>florala high school</h3>
+      <span>grades 7–12 • florala</span>
+    </div>
+    <div class="school-card">
+      <h3>w.s. harlan elementary</h3>
+      <span>grades pk–6 • lockhart</span>
+    </div>
+    <div class="school-card">
+      <h3>fleeta junior high</h3>
+      <span>grades pk–8 • opp</span>
+    </div>
+  </div>
+
+  <!-- City School Systems within the County -->
+  <div class="section-title">andalusia & opp city systems</div>
+  <div class="school-grid">
+    <div class="school-card">
+      <h3>andalusia high school</h3>
+      <span>andalusia city schools</span>
+    </div>
+    <div class="school-card">
+      <h3>andalusia jr high & elementary</h3>
+      <span>andalusia city schools</span>
+    </div>
+    <div class="school-card">
+      <h3>opp high school</h3>
+      <span>opp city schools</span>
+    </div>
+    <div class="school-card">
+      <h3>opp middle & elementary</h3>
+      <span>opp city schools</span>
+    </div>
+  </div>
+
+  <footer>
+    <p>maintained independently under main site ccschools.github.io | built for fast loading & accessibility</p>
+  </footer>
+
+</body>
+</html>
